@@ -26,17 +26,29 @@ body {
     width: 900px;
     height: 500px;
     transform: translate(-50%, -50%);
-    max-width: 1200px;
     background: rgba(48, 6, 231, 0.3);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    /* overflow: hidden; */
 }
 
+@media (max-width:768px) {
+    .box {
+        flex-direction: column;
+        width: 500px;
+    }
+}
+
+@media (max-width:480px) {
+    .box {
+        flex-direction: column;
+        width: 300px;
+    }
+}
+
+/* welcome content */
 .other {
-    flex-basis: 70%;
     padding: 20px;
     color: whitesmoke;
 }
@@ -65,11 +77,54 @@ body {
     margin: 10px;
 }
 
+@media (max-width:768px) {
+    .other {
+        height: 180px;
+    }
+
+    .other h2,
+    .other p {
+        margin: 0;
+        font-size: 25px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .logo p {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
+@media (max-width:480px) {
+    .other {
+        height: 180px;
+    }
+
+    .other h2,
+    .other p {
+        margin: 0;
+        font-size: 25px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .logo p {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+}
+
+/* login content */
 .login {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    flex-grow: 1;
     position: relative;
     padding: 20px;
     background: rgba(255, 255, 255, 0.7);
@@ -134,17 +189,20 @@ input#email {
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
     border: 2px solid transparent;
+
 }
+
 input#email:focus {
     outline: none;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
 }
 
-input#email:focus ~ label.email{
-    top:-30px;
+input#email:focus~label.email {
+    top: -30px;
 }
-input#email:invalid ~ label.email{
-    top:-30px;
+
+input#email:invalid~label.email {
+    top: -30px;
 }
 
 /* password */
@@ -191,16 +249,20 @@ input#password {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
     border: 2px solid transparent;
 }
+
 input#password:focus {
     outline: none;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
 }
-input#password:focus ~ label.password{
-    top:-30px;
+
+input#password:focus~label.password {
+    top: -30px;
 }
-input#password:not(:placeholder-shown) ~ label.password{
-    top:-30px;
+
+input#password:not(:placeholder-shown)~label.password {
+    top: -30px;
 }
+
 /* button */
 button {
     width: 90%;
@@ -215,10 +277,11 @@ button {
     border: transparent;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-cursor: pointer;
-transition: .2s;
+    cursor: pointer;
+    transition: .2s;
 }
-button:hover{
+
+button:hover {
     background: rgba(48, 6, 231, 0.5);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
 }
@@ -255,4 +318,112 @@ a.forgot {
     font-size: 12px;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width:768px) {
+    .login {
+        border-radius: 16px;
+        
+    }
+
+    i.fa-user {
+        font-size: 35px;
+        padding: 10px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+
+    div.email {
+        width: 80%;
+        margin-top: 70px;
+        font-size: 20px;
+    }
+
+    div.password {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    button {
+        width: 80%;
+        flex-basis: 12%;
+        font-size: 25px;
+        margin-top: 5px;
+    }
+
+      div.remember {
+        width: 80%;
+        margin-top: 15px;
+    
+    }
+    input#rememberMe {
+        top: 2px;
+        height: 25px;
+        width: 25px;
+    }
+    label.rememberMe {
+        left: 30px;
+        top: 6px;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    a.forgot {
+        top: 6px;
+        font-size: 16px;
+
+    }
+}
+@media (max-width:480px) {
+    .login {
+        border-radius: 16px;
+    }
+
+    i.fa-user {
+        font-size: 35px;
+        padding: 10px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+
+    div.email {
+        width: 80%;
+        margin-top: 90px;
+        font-size: 20px;
+    }
+
+    div.password {
+        width: 80%;
+        flex-basis: 20%;
+        margin-top: 30px;
+    }
+
+    button {
+        width: 80%;
+        flex-basis: 12%;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    div.remember {
+        width: 80%;
+        margin-top: 15px;
+        line-height: 20px;
+    }
+    input#rememberMe {
+        height: 20px;
+        width: 20px;
+    }
+    label.rememberMe {
+        left: 25px;
+        top: 2px;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    a.forgot {
+        top: 2px;
+        font-size: 12px;
+
+    }
 }
