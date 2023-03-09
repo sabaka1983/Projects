@@ -4,4 +4,5 @@
 
 
 <a href="https://sabaka1983.github.io/Projects/Slider/">Slider</a> - simple slider - flexbox, position and animation<br>
-<a href="https://sabaka1983.github.io/Projects/LoginPage">LoginPage</a> - login page - flexbox, position and transition (mobile version WIP)
+<a href="https://sabaka1983.github.io/Projects/LoginPage">LoginPage</a> - login page - flexbox, position and transition 
+<a href="https://sabaka1983.github.io/Projects/QR-code-component">QR-code-component</a> - QR-code-component <a href="https://www.frontendmentor.io/">Frontend Mentor</a>
