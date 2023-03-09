@@ -18,13 +18,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](QR-code-component\images\QR-code-component-screenshot.png)
+![](https://github.com/sabaka1983/Projects/blob/master/QR-code-component/images/QR-code-component-screenshot%20.png?raw=true)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/sabaka1983/Projects/tree/master/QR-code-component)
+- [Live Site URL](https://sabaka1983.github.io/Projects/QR-code-component)
 
 ## My process
 
