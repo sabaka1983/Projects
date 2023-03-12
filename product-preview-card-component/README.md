@@ -14,8 +14,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -27,14 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/sabaka1983/Projects/blob/master/)
-![](https://github.com/sabaka1983/Projects/blob/master/)
+![](https://github.com/sabaka1983/Projects/blob/master/product-preview-card-component/images/product-preview-card-component-screenshot.png?raw=true)
+![](https://github.com/sabaka1983/Projects/blob/master/product-preview-card-component/images/product-preview-card-component-screenshot-mobile.png?raw=true)
 
 
 ### Links
 
-- [Solution URL](https://github.com/sabaka1983/Projects/tree/master/)
-- [Live Site URL](https://sabaka1983.github.io/Projects/)
+- [Solution URL](https://github.com/sabaka1983/Projects/tree/master/product-preview-card-component)
+- [Live Site URL](https://sabaka1983.github.io/Projects/product-preview-card-component)
 
 ## My process
 
@@ -52,7 +50,7 @@ Users should be able to:
 In this project I used CSS, HTML and flexbox.
 Flexbox was used to center and arrange objects on the page.
 I used position and transform to place the footer at the bottom of the page.
-In the project, I used the <picture> tag to change the image displayed.
+In the project, I used the ```html <picture> ```  tag to change the image displayed.
 
 
 
