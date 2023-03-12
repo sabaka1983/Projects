@@ -50,7 +50,7 @@ Users should be able to:
 In this project I used CSS, HTML and flexbox.
 Flexbox was used to center and arrange objects on the page.
 I used position and transform to place the footer at the bottom of the page.
-In the project, I used the ```html <picture> ```  tag to change the image displayed.
+In the project, I used the ``` <picture> ```  tag to change the image displayed and ``` @media ``` to change flexbox direction.
 
 
 
