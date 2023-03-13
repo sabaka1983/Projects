@@ -10,3 +10,5 @@
 [QR-code-component](https://sabaka1983.github.io/Projects/QR-code-component) - QR-code-component [Frontend Mentor](https://www.frontendmentor.io)
 
 [product-preview-card-component](https://sabaka1983.github.io/Projects/product-preview-card-component) - product-preview-card-component [Frontend Mentor](https://www.frontendmentor.io)
+
+[3-column-preview-card-component-main](https://sabaka1983.github.io/Projects/3-column-preview-card-component-main) - 3-column-preview-card-component-main [Frontend Mentor](https://www.frontendmentor.io)
